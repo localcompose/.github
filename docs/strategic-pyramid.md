@@ -22,3 +22,62 @@ Keep everything minimal and transparent: automate only the common-sense defaults
 - Ensure domain/HTTPS setup is predictable and frictionless.  
 
 ---
+
+## Mermaid Diagram
+
+```mermaid
+flowchart TD
+    %% Vision
+    subgraph V["Vision"]
+        V1["Local apps as real websites — private, simple, reliable"]
+        V2["Guiding principle: 'As simple as possible, but not simpler.'"]
+    end
+
+    %% Mission
+    subgraph M["Mission"]
+        M1["Lightweight tool"]
+        M2["Hides port/IP hassle"]
+        M3["Clean domains & HTTPS for local Docker Compose apps"]
+        M4["Quick setup for low-experience users"]
+    end
+
+    %% Strategic Goal
+    subgraph G["Strategic Goal (MVP Target)"]
+        G1["Release stable CLI"]
+        G2["Ship 3–6 predefined app stacks"]
+        G3["Support minimal auto-setup for a custom stack (single image)"]
+        G4["(Optional) Setup time: 30–90 min"]
+    end
+
+    %% Key Strategy
+    subgraph S["Key Strategy"]
+        S1["Keep everything minimal & transparent"]
+        S2["Automate only common-sense defaults"]
+        S3["Always allow manual adjustment"]
+    end
+
+    %% Tactics
+    subgraph T["Tactics (Execution Focus)"]
+        T1["CLI commands that 'just work'"]
+        T2["Clear, short docs for manual tweaks"]
+        T3["Predictable, frictionless domain & HTTPS setup"]
+    end
+
+    %% Connections
+    V1 --> M1
+    V2 --> M4
+
+    M1 --> G1
+    M2 --> G2
+    M3 --> G3
+    M4 --> G4
+
+    G1 --> S1
+    G2 --> S2
+    G3 --> S2
+    G4 --> S3
+
+    S1 --> T1
+    S2 --> T2
+    S3 --> T3
+```
