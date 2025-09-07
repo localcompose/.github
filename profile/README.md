@@ -12,8 +12,8 @@ For example, you can turn `http://localhost:9000/` into `https://portainer.locom
 We are actively developing `locom`, a command-line tool to orchestrate local-only Docker Compose workflows with simplicity and clarity.
 
 💡 Vision:  
-Support developers, testers, and tinkerers who prefer local, private, and reliable environments — without unnecessary cloud complexity.
+Support developers, testers, and tinkerers who prefer local, private, and reliable environments — without unnecessary cloud complexity. See [strategic pyramid](../docs/strategic-pyramid.md) for visualization.
 
 ---
 
-📌 _This project is in active development. Contributors and feedback are welcome. Please watch the repo for updates!_
+📌 _This project is in active development. Contributors and feedback are welcome. Please watch [the repo](https://github.com/localcompose/locom) for updates!_
