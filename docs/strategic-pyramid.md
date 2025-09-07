@@ -22,3 +22,16 @@ Keep everything minimal and transparent: automate only the common-sense defaults
 - Ensure domain/HTTPS setup is predictable and frictionless.  
 
 ---
+
+## Mermaid Diagram
+
+```mermaid
+flowchart TD
+    Vision["Vision: Local apps as real websites — private, simple, reliable"]
+    Mission["Mission: Lightweight tool, hides port/IP hassle, clean domains & HTTPS"]
+    Goal["Strategic Goal (MVP): CLI with 3–6 stacks + minimal custom auto-setup (30–90 min)"]
+    Strategy["Key Strategy: Minimal & transparent; automate defaults, allow manual tweaks"]
+    Tactic["Tactics: Simple CLI, short docs, predictable HTTPS/domains"]
+    
+    Vision --> Mission --> Goal --> Strategy --> Tactic
+```
