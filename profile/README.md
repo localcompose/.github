@@ -2,7 +2,7 @@
 
 ## localcompose
 
-**localcompose** is a community-driven toolset for running local Docker Compose apps in an offline-friendly, no-cloud-required way.  
+**localcompose** is a tool for running local Docker Compose apps in an offline-friendly, no-cloud-required way.  
 It helps you stop juggling ports and IPs like `127.0.0.1:9000`, giving each app a clean domain name and a trusted HTTPS link.  
 With minimal setup, your local tools feel like real websites — easier to browse, test, and connect across your system.
 
