@@ -1,0 +1,29 @@
+name: ✅ Task
+description: Create a trackable actionable task
+title: "[Task]: "
+labels: ["task", "todo"]
+type: task
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to track a single, actionable item of work.  
+        Tasks are often smaller steps toward a larger feature or milestone.
+  - type: input
+    id: objective
+    attributes:
+      label: Task objective
+      placeholder: "Briefly describe what needs to be done"
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: "Add context, dependencies, or instructions"
+  - type: checkboxes
+    id: readiness
+    attributes:
+      label: Pre-task checklist
+      options:
+        - label: This task is clearly defined
+        - label: Dependencies are known
+        - label: It can be completed independently

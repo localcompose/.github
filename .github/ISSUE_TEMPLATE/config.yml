@@ -1,0 +1,15 @@
+blank_issues_enabled: true
+
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/localcompose/.github/blob/main/docs/strategic-pyramid.md
+    about: Please check the documentation before opening an issue.
+  - name: 💬 Discussions (coming soon 🚧)
+    # name: 💬 Discussions
+    url: https://github.com/localcompose
+    # url: https://github.com/localcompose/discussions
+    about: Discussions will be available soon — stay tuned!
+    # about: Ask questions and discuss ideas here instead of opening an issue.
+  - name: 🧭 Contributing Guide
+    url: https://github.com/localcompose/.github/blob/main/CONTRIBUTING.md
+    about: Read this before submitting issues or PRs.

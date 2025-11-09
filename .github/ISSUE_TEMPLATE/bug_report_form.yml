@@ -1,0 +1,48 @@
+name: 🐞 Advanced Bug Report (Form)
+description: |
+  Report a reproducible bug or unexpected behavior
+  
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+type: issue
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug!  
+        Please fill in as much detail as possible to help us reproduce and fix it.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: "Short, clear summary of the bug"
+      placeholder: "e.g. Saving a file causes a crash"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: "List the steps needed to reproduce the issue"
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. Observe ...
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: "What you expected to happen"
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: "What actually happened"
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "OS, browser, app version, etc."
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or screenshots
+      description: "Attach or paste logs, errors, or screenshots"
